@@ -1,5 +1,12 @@
+/* eslint-disable no-unused-vars */
+
+const $raceTrack = document.querySelector('.race-track')
+
 function renderCar() {
-  $raceCar = document.createElement('img')
+  const $raceCar = document.createElement('img')
   $raceCar.classList.add('race-car')
-  $raceCar.setAttribute('src', 'race-car.jpg')
+  $raceCar.setAttribute('src', 'rsz_1race-car.jpg')
+  $raceTrack.appendChild($raceCar)
 }
+
+renderCar()
