@@ -1,5 +1,5 @@
 # driving-game
-My version of a driving game (in development).
+My version of a driving game.
 
 # Usage
 index.html
